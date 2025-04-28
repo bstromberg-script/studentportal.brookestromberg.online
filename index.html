@@ -1,1 +1,62 @@
-<!DOCTYPE html><html><head><title>La Film School Student Portal - Brooke Stromberg</title><link rel='stylesheet' href='style.css'></head><body><h1>Welcome to Tuition & Fees</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Film School Student Portal - Brooke Stromberg</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="La Film School Logo" class="logo">
+  <nav>
+    <a href="index.html" class="active">Tuition & Fees</a>
+    <a href="login.html">Student Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="payment-section">
+    <h1>Make a Payment</h1>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+    <stripe-buy-button
+      buy-button-id="buy_btn_1RDklYRxg9anhw5eSakxJv8m"
+      publishable-key="pk_live_51R1bonRxg9anhw5eUreumqGfnn13Zzmub6zpBZb0yIlPvTDrP3jZPb0OZvEBnojyMUxjCJauLciplgKXMcvuQgwk00FpYSIghJ">
+    </stripe-buy-button>
+  </section>
+
+  <section class="tuition-info">
+    <h2>Program: Writing for TV & Film - Bachelor of Science</h2>
+    <p><strong>Program Length:</strong> 36 months (3 years)</p>
+    <p><strong>Semester Length:</strong> 16 weeks</p>
+    <p><strong>Graduation Date:</strong> May 26, 2026</p>
+    <h3>Tuition Cost Breakdown</h3>
+    <table>
+      <tr><th>Description</th><th>Cost</th></tr>
+      <tr><td>Full Tuition (Before Aid)</td><td>$76,500</td></tr>
+      <tr><td>Financial Aid (Estimated 75% Covered)</td><td>($68,850)</td></tr>
+      <tr><td><strong>Out-of-Pocket Tuition</strong></td><td><strong>$7,650</strong></td></tr>
+    </table>
+
+    <p><strong>Per Semester Due:</strong> $1,650 (after aid)</p>
+    <p><strong>Next Payment Due:</strong> May 27th</p>
+
+    <div class="notice">
+      <h4>Delinquent Student Accounts</h4>
+      <p>Monthly past due notices are sent to students who have outstanding balances. If a balance of $3,500 or more becomes 60 days past due, the account is determined to be delinquent. After 4 notices, the school may withdraw the student if the balance remains unpaid.</p>
+    </div>
+  </section>
+
+  <section class="financial-aid">
+    <h2>Financial Aid</h2>
+    <p>Grants and aid typically cover approximately 75% of total tuition, lowering each semester's student payment obligation to $1,650.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 The Los Angeles Film School - Student Portal for Brooke Stromberg</p>
+</footer>
+
+</body>
+</html>
