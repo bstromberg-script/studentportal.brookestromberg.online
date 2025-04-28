@@ -1,1 +1,75 @@
-body { font-family: Arial, sans-serif; background-color: #000; color: #fff; }
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid #f0c000;
+}
+
+main {
+  padding: 20px;
+}
+
+.payment-section, .tuition-info, .financial-aid, .login, .assignment-upload {
+  margin-bottom: 40px;
+}
+
+.notice {
+  background: #fff3cd;
+  padding: 15px;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+}
+
+input[type="email"], input[type="password"], input[type="file"] {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background-color: #f0c000;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d9aa00;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
